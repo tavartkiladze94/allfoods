@@ -183,9 +183,9 @@ function init(objj)
                        '</ul>'+
                    '</div>'+
                    '<div class="product__item__text">'+
-                       '<h6><a href="https://foods.ishove.ge/food_info'+'/'+foods[i].id+'">'+ foods[i].category+'</a></h6>'+
+                       '<h6><a href="https://allfoods.ishove.ge/food_info'+'/'+foods[i].id+'">'+ foods[i].category+'</a></h6>'+
                        '<h6>'+ tt+ ' '+ ttt+ '</h6>'+
-                       '<h5><a href="https://foods.ishove.ge/food_info'+'/'+foods[i].id+'">'+foods[i].name+'</a></h5>'+
+                       '<h5><a href="https://allfoods.ishove.ge/food_info'+'/'+foods[i].id+'">'+foods[i].name+'</a></h5>'+
                    '</div><br>'+
                '</div>'+
               '</div>');
@@ -212,9 +212,9 @@ function init(objj)
                        '</ul>'+
                    '</div>'+
                    '<div class="product__item__text">'+
-                       '<h6><a href="https://foods.ishove.ge/food_info'+'/'+foods[i].id+'">'+ foods[i].category+'</a></h6>'+
+                       '<h6><a href="https://allfoods.ishove.ge/food_info'+'/'+foods[i].id+'">'+ foods[i].category+'</a></h6>'+
                        '<h6>'+ tt+ ' '+ ttt+ '</h6>'+
-                       '<h5><a href="https://foods.ishove.ge/food_info'+'/'+foods[i].id+'">'+foods[i].name+'</a></h5>'+
+                       '<h5><a href="https://allfoods.ishove.ge/food_info'+'/'+foods[i].id+'">'+foods[i].name+'</a></h5>'+
                    '</div><br>'+
                '</div>'+
               '</div>');
