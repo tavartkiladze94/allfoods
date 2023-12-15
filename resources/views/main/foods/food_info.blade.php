@@ -15,7 +15,14 @@
 </div>
 <div class="col-lg-6 col-md-6">
 <div class="product__details__text">
-<h3>{{ $foodinfo->name_ge }}</h3>
+<h3>
+    @if(session('locale') == 'ka')
+            {{ $foodinfo->name_ka}}
+        @elseif(session('locale') == 'en')
+            {{ $foodinfo->name_en}}
+        @elseif(session('locale') == 'ru')
+            {{ $foodinfo->name_ka}}
+    @endif</h3>
 <div class="product__details__rating">
 <i class="fa fa-star"></i>
 <i class="fa fa-star"></i>
