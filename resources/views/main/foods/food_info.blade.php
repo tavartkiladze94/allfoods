@@ -1,5 +1,5 @@
 @extends('main.layout')
-@section('title','store')
+@section('title','Foods')
 @section('content')
 
 <section class="product-details spad">
@@ -33,11 +33,7 @@
 <!-- <span>({{$foodinfo->view}} ნახვა)</span> -->
 </div>
 
-<div class="product__details__price">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.foods.ishove.ge/main/food/{{ $foodinfo->code}}" target="_blank">
-     <img src="{{ asset('assets/img/share.png')}}" style="width:80px;height:25px;"/>
-</a>
-</div>
+
 <div class="product__details__price">{{ $foodinfo->category }}</div>
 
 <div class="product__details__quantity">
