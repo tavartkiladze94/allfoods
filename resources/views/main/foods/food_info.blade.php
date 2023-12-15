@@ -22,7 +22,8 @@
             {{ $foodinfo->name_en}}
         @elseif(session('locale') == 'ru')
             {{ $foodinfo->name_ka}}
-    @endif</h3>
+    @endif
+</h3>
 <div class="product__details__rating">
 <i class="fa fa-star"></i>
 <i class="fa fa-star"></i>
